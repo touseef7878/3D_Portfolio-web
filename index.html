@@ -3,479 +3,438 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio of Touseef ur Rehman, Front-End Developer and AI/ML Enthusiast">
-    <meta name="keywords" content="web developer, portfolio, frontend, AI, machine learning, Pakistan">
     <title>Touseef ur Rehman | Web Developer Portfolio</title>
-    
-    <!-- Preload critical resources -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="font" crossorigin>
-    <link rel="preload" href="styles.css" as="style">
-    
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    
-    <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    
-    <!-- Theme color for mobile browsers -->
-    <meta name="theme-color" content="#2d3436">
 </head>
 <body>
-    <!-- Loading indicator -->
-    <div class="loading-overlay" aria-hidden="true">
-        <div class="loading-spinner"></div>
-    </div>
-    
-    <!-- 3D Scene Background -->
-    <div class="scene" id="scene" aria-hidden="true"></div>
-    
-    <!-- Skip to content link for accessibility -->
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="scene" id="scene"></div>
     
     <!-- Header/Navigation -->
-    <header id="header">
-        <nav class="container">
+    <header>
+        <nav>
             <div class="logo">
-                <span aria-hidden="true">T</span>ouseef<span aria-hidden="true">R</span>ehman
+                <span>T</span>ouseef<span>R</span>ehman
             </div>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#hero" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#resume" class="nav-link">Resume</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-                <i class="fas fa-bars" aria-hidden="true"></i>
-            </button>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <main id="main-content">
-        <!-- Hero Section -->
-        <section id="hero" class="section">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1>Hi, I'm <span class="highlight">Touseef ur Rehman</span></h1>
-                        <h2>A Creative <span class="highlight">Front-End Developer</span></h2>
-                        <p>Building web experiences with modern technologies and interactive designs that engage users.</p>
-                        <div class="hero-btns">
-                            <a href="#contact" class="btn btn-primary">Hire Me</a>
-                            <a href="#projects" class="btn btn-secondary">My Work</a>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Touseef ur Rehman</span></h1>
+                    <h2>A Creative <span>Front-End Developer</span></h2>
+                    <p>Building web experiences with modern technologies and interactive designs that engage users.</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn btn-secondary">My Work</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="images/WhatsApp Image 2024-12-23 at 16.48.49_e2108dda.jpg" alt="Professional headshot of Touseef ur Rehman" />
+                        <div class="glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="cube-container">
+                        <div class="cube">
+                            <div class="cube-face front">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="cube-face back">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="cube-face right">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="cube-face left">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="cube-face top">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="cube-face bottom">
+                                <i class="fas fa-rocket"></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="hero-image">
-                        <div class="image-container">
-                            <img src="images/WhatsApp Image 2024-12-23 at 16.48.49_e2108dda.jpg" alt="Professional headshot of Touseef ur Rehman" width="400" height="400" loading="lazy">
-                            <div class="glow" aria-hidden="true"></div>
+                </div>
+                <div class="about-text">
+                    <h3>Front-End Developer and AI/ML Enthusiast</h3>
+                    <p>Hello! I'm Touseef ur Rehman, a Computer Science student at HITEC University, Taxila. I'm passionate about front-end development, machine learning, and building real-world applications.</p>
+                    <p>I've worked on multiple AI, ANN, and web projects—some deployed and some hosted on GitHub.</p>
+                    <p>I stay constantly updated with the latest web technologies including HTML5, CSS3, JavaScript, and Python frameworks.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span>Name:</span>
+                            <span>Touseef ur Rehman</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>Email:</span>
+                            <span>touseefurrehman5554@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>From:</span>
+                            <span>Taxila, Pakistan</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">About <span class="highlight">Me</span></h2>
-                <div class="about-content">
-                    <div class="about-image">
-                        <div class="cube-container" aria-hidden="true">
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <!-- Frontend Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML5/CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Flask</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI & Data Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI & Data</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Machine Learning</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Artificial Neural Networks</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Web Scraping</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <div class="project-img-container">
+                        <img src="https://st5.depositphotos.com/69013270/64252/v/600/depositphotos_642526598-stock-video-animated-blue-calculator-icon-designed.jpg" class="project-img" alt="Calculator App" />
+                    </div>
+                    <div class="project-overlay">
+                        <h3>Calculator App</h3>
+                        <p>A responsive calculator built with HTML, CSS, and JavaScript. Demonstrates event handling and interactive UI.</p>
+                        <div class="project-links">
+                            <a href="https://touseef7878.github.io/Calculator/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/touseef7878/Calculator" class="project-link">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item">
+                    <div class="project-img-container">
+                        <img src="https://media.istockphoto.com/id/1435905195/vector/sentiment-analysis-different-opinions-various-customer-feedback-good-neutral-and-bad.jpg?s=612x612&w=0&k=20&c=8UwuMS5VI2H_9gudMXXV1ixIZ3YBmW6sLb_qexcLoXQ=" class="project-img" alt="Sentiment Analyzer" />
+                    </div>
+                    <div class="project-overlay">
+                        <h3>Sentiment Analyzer</h3>
+                        <p>AI-based sentiment analyzer using Python, Flask, and NLTK. Analyzes short text and predicts sentiment.</p>
+                        <div class="project-links">
+                            <a href="https://sentiment-analyzer-cpwq.onrender.com/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/touseef7878/sentiment_analyzer" class="project-link">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item">
+                    <div class="project-img-container">
+                        <img src="https://static.vecteezy.com/system/resources/previews/017/275/931/non_2x/two-step-security-concept-character-uses-two-step-verification-to-protect-personal-data-user-authorization-login-authentication-and-information-protection-flat-cartoon-illustration-vector.jpg" class="project-img" alt="Web Authentication System" />
+                    </div>
+                    <div class="project-overlay">
+                        <h3>Web Authentication System</h3>
+                        <p>Login/Registration system with dashboard, built using Flask. Includes form validation and secure user management.</p>
+                        <div class="project-links">
+                            <a href="https://web-authentication-system.onrender.com/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/touseef7878/Web-Authentication-Project" class="project-link">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item">
+                    <div class="project-img-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReu-LTL8KRzloWJi_9FBGvg_LWiUs65VA5Tw&s" class="project-img" alt="Library Management System" />
+                    </div>
+                    <div class="project-overlay">
+                        <h3>Library Management System</h3>
+                        <p>Flask + SQLite app for managing books, members, loans, and book reviews. Clean admin dashboard included.</p>
+                        <div class="project-links">
+                            <a href="https://library-management-system-vq17.onrender.com/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/touseef7878/Library-Management-System" class="project-link">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-item">
+                    <div class="project-img-container">
+                        <img src="https://cdn.prod.website-files.com/60ef088dd8fef99352abb434/6675898587b273c9d372ec87_hugging%20face%20ai%20detector.webp" class="project-img" alt="AI-Powered Public Opinion Analyzer" />
+                    </div>
+                    <div class="project-overlay">
+                        <h3>AI-Powered Public Opinion Analyzer</h3>
+                        <p>Flask-based text input tool to analyze sentiment of public opinion. AI-powered classification and summary.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/touseef7878/AI-Powered-Public-opinion" class="project-link">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-item">
+                    <div class="project-img-container">
+                        <img src="https://img.freepik.com/free-photo/artificial-intelligence-system-using-complex-language-code-deep-learning-neural-network-programming-model-solving-operations-using-massive-computational-power-3d-render-animation_482257-66217.jpg" class="project-img" alt="AI & ANN Projects" />
+                    </div>
+                    <div class="project-overlay">
+                        <h3>AI & ANN Projects</h3>
+                        <p>Collection including Fake News Detection, Stock Movement Prediction, and Vision Transformer projects.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/touseef7878" class="project-link">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title">My <span>Resume</span></h2>
+            <div class="resume-content">
+                <div class="resume-timeline">
+                    <!-- Education -->
+                    <div class="timeline-section">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">Present</div>
+                                <div class="timeline-content">
+                                    <h4>B.S. Computer Science</h4>
+                                    <h5>HITEC University, Taxila</h5>
+                                    <p>Currently enrolled in 7th semester with focus on web development and AI technologies.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects Experience -->
+                    <div class="timeline-section">
+                        <h3><i class="fas fa-briefcase"></i> Project Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2024</div>
+                                <div class="timeline-content">
+                                    <h4>Sentiment Analyzer</h4>
+                                    <h5>Personal Project</h5>
+                                    <p>Developed an AI-based sentiment analyzer using Python, Flask, and NLTK.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2024</div>
+                                <div class="timeline-content">
+                                    <h4>Library Management System</h4>
+                                    <h5>Personal Project</h5>
+                                    <p>Built a complete Flask + SQLite application for managing library operations.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2023-2024</div>
+                                <div class="timeline-content">
+                                    <h4>Multiple Web Projects</h4>
+                                    <h5>Personal Projects</h5>
+                                    <p>Developed various web applications including calculator, authentication systems, and portfolio websites.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <div class="download-card">
+                        <div class="cube-container">
                             <div class="cube">
                                 <div class="cube-face front">
-                                    <i class="fas fa-code" aria-hidden="true"></i>
+                                    <i class="fas fa-file-alt"></i>
                                 </div>
                                 <div class="cube-face back">
-                                    <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                                    <i class="fas fa-file-pdf"></i>
                                 </div>
                                 <div class="cube-face right">
-                                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                                    <i class="fas fa-file-word"></i>
                                 </div>
                                 <div class="cube-face left">
-                                    <i class="fas fa-paint-brush" aria-hidden="true"></i>
+                                    <i class="fas fa-file-code"></i>
                                 </div>
                                 <div class="cube-face top">
-                                    <i class="fas fa-brain" aria-hidden="true"></i>
+                                    <i class="fas fa-file-contract"></i>
                                 </div>
                                 <div class="cube-face bottom">
-                                    <i class="fas fa-rocket" aria-hidden="true"></i>
+                                    <i class="fas fa-file-download"></i>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="about-text">
-                        <h3>Front-End Developer and AI/ML Enthusiast</h3>
-                        <p>Hello! I'm Touseef ur Rehman, a Computer Science student at HITEC University, Taxila. I'm passionate about front-end development, machine learning, and building real-world applications.</p>
-                        <p>I've worked on multiple AI, ANN, and web projects—some deployed and some hosted on GitHub.</p>
-                        <p>I stay constantly updated with the latest web technologies including HTML5, CSS3, JavaScript, and Python frameworks.</p>
-                        <div class="about-details">
-                            <div class="detail-item">
-                                <span>Name:</span>
-                                <span>Touseef ur Rehman</span>
-                            </div>
-                            <div class="detail-item">
-                                <span>Email:</span>
-                                <span><a href="mailto:touseefurrehman5554@gmail.com">touseefurrehman5554@gmail.com</a></span>
-                            </div>
-                            <div class="detail-item">
-                                <span>From:</span>
-                                <span>Taxila, Pakistan</span>
-                            </div>
+                        <h3>Download My Resume</h3>
+                        <p>Available in multiple formats</p>
+                        <div class="download-btns">
+                            <a href="documents/Resume.pdf" class="btn btn-primary">PDF Version</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
-                <div class="skills-container">
-                    <!-- Frontend Skills -->
-                    <div class="skill-category">
-                        <h3><i class="fas fa-laptop-code" aria-hidden="true"></i> Frontend</h3>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>HTML5/CSS3</span>
-                                <span>90%</span>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3><i class="fas fa-paper-plane"></i> Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Taxila, Pakistan</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>JavaScript</span>
-                                <span>70%</span>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
                             </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:touseefurrehman5554@gmail.com">touseefurrehman5554@gmail.com</a>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Backend Skills -->
-                    <div class="skill-category">
-                        <h3><i class="fas fa-server" aria-hidden="true"></i> Backend</h3>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Python</span>
-                                <span>75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Flask</span>
-                                <span>70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- AI & Data Skills -->
-                    <div class="skill-category">
-                        <h3><i class="fas fa-robot" aria-hidden="true"></i> AI & Data</h3>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Machine Learning</span>
-                                <span>75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Artificial Neural Networks</span>
-                                <span>70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Web Scraping</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
+                    <div class="social-links">
+                        <a href="https://github.com/touseef7878" class="social-link"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <div class="container">
-                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <article class="project-item">
-                        <div class="project-img-container">
-                            <img src="https://st5.depositphotos.com/69013270/64252/v/600/depositphotos_642526598-stock-video-animated-blue-calculator-icon-designed.jpg" class="project-img" alt="Calculator App" loading="lazy" width="400" height="300">
+                <div class="contact-form">
+                    <h3><i class="fas fa-envelope-open-text"></i> Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                         </div>
-                        <div class="project-overlay">
-                            <h3>Calculator App</h3>
-                            <p>A responsive calculator built with HTML, CSS, and JavaScript. Demonstrates event handling and interactive UI.</p>
-                            <div class="project-links">
-                                <a href="https://touseef7878.github.io/Calculator/" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                                <a href="https://github.com/touseef7878/Calculator" class="project-link" target="_blank" rel="noopener noreferrer">Github</a>
-                            </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
                         </div>
-                    </article>
-
-                    <!-- Project 2 -->
-                    <article class="project-item">
-                        <div class="project-img-container">
-                            <img src="https://media.istockphoto.com/id/1435905195/vector/sentiment-analysis-different-opinions-various-customer-feedback-good-neutral-and-bad.jpg?s=612x612&w=0&k=20&c=8UwuMS5VI2H_9gudMXXV1ixIZ3YBmW6sLb_qexcLoXQ=" class="project-img" alt="Sentiment Analyzer" loading="lazy" width="400" height="300">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
                         </div>
-                        <div class="project-overlay">
-                            <h3>Sentiment Analyzer</h3>
-                            <p>AI-based sentiment analyzer using Python, Flask, and NLTK. Analyzes short text and predicts sentiment.</p>
-                            <div class="project-links">
-                                <a href="https://sentiment-analyzer-cpwq.onrender.com/" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                                <a href="https://github.com/touseef7878/sentiment_analyzer" class="project-link" target="_blank" rel="noopener noreferrer">Github</a>
-                            </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
                         </div>
-                    </article>
-
-                    <!-- Project 3 -->
-                    <article class="project-item">
-                        <div class="project-img-container">
-                            <img src="https://static.vecteezy.com/system/resources/previews/017/275/931/non_2x/two-step-security-concept-character-uses-two-step-verification-to-protect-personal-data-user-authorization-login-authentication-and-information-protection-flat-cartoon-illustration-vector.jpg" class="project-img" alt="Web Authentication System" loading="lazy" width="400" height="300">
-                        </div>
-                        <div class="project-overlay">
-                            <h3>Web Authentication System</h3>
-                            <p>Login/Registration system with dashboard, built using Flask. Includes form validation and secure user management.</p>
-                            <div class="project-links">
-                                <a href="https://web-authentication-system.onrender.com/" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                                <a href="https://github.com/touseef7878/Web-Authentication-Project" class="project-link" target="_blank" rel="noopener noreferrer">Github</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 4 -->
-                    <article class="project-item">
-                        <div class="project-img-container">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReu-LTL8KRzloWJi_9FBGvg_LWiUs65VA5Tw&s" class="project-img" alt="Library Management System" loading="lazy" width="400" height="300">
-                        </div>
-                        <div class="project-overlay">
-                            <h3>Library Management System</h3>
-                            <p>Flask + SQLite app for managing books, members, loans, and book reviews. Clean admin dashboard included.</p>
-                            <div class="project-links">
-                                <a href="https://library-management-system-vq17.onrender.com/" class="project-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                                <a href="https://github.com/touseef7878/Library-Management-System" class="project-link" target="_blank" rel="noopener noreferrer">Github</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 5 -->
-                    <article class="project-item">
-                        <div class="project-img-container">
-                            <img src="https://cdn.prod.website-files.com/60ef088dd8fef99352abb434/6675898587b273c9d372ec87_hugging%20face%20ai%20detector.webp" class="project-img" alt="AI-Powered Public Opinion Analyzer" loading="lazy" width="400" height="300">
-                        </div>
-                        <div class="project-overlay">
-                            <h3>AI-Powered Public Opinion Analyzer</h3>
-                            <p>Flask-based text input tool to analyze sentiment of public opinion. AI-powered classification and summary.</p>
-                            <div class="project-links">
-                                <a href="https://github.com/touseef7878/AI-Powered-Public-opinion" class="project-link" target="_blank" rel="noopener noreferrer">Github</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 6 -->
-                    <article class="project-item">
-                        <div class="project-img-container">
-                            <img src="https://img.freepik.com/free-photo/artificial-intelligence-system-using-complex-language-code-deep-learning-neural-network-programming-model-solving-operations-using-massive-computational-power-3d-render-animation_482257-66217.jpg" class="project-img" alt="AI & ANN Projects" loading="lazy" width="400" height="300">
-                        </div>
-                        <div class="project-overlay">
-                            <h3>AI & ANN Projects</h3>
-                            <p>Collection including Fake News Detection, Stock Movement Prediction, and Vision Transformer projects.</p>
-                            <div class="project-links">
-                                <a href="https://github.com/touseef7878" class="project-link" target="_blank" rel="noopener noreferrer">Github</a>
-                            </div>
-                        </div>
-                    </article>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
                 </div>
             </div>
-        </section>
-
-        <!-- Resume Section -->
-        <section id="resume" class="section">
-            <div class="container">
-                <h2 class="section-title">My <span class="highlight">Resume</span></h2>
-                <div class="resume-content">
-                    <div class="resume-timeline">
-                        <!-- Education -->
-                        <div class="timeline-section">
-                            <h3><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h3>
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-date">Present</div>
-                                    <div class="timeline-content">
-                                        <h4>B.S. Computer Science</h4>
-                                        <h5>HITEC University, Taxila</h5>
-                                        <p>Currently enrolled in 7th semester with focus on web development and AI technologies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Projects Experience -->
-                        <div class="timeline-section">
-                            <h3><i class="fas fa-briefcase" aria-hidden="true"></i> Project Experience</h3>
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-date">2024</div>
-                                    <div class="timeline-content">
-                                        <h4>Sentiment Analyzer</h4>
-                                        <h5>Personal Project</h5>
-                                        <p>Developed an AI-based sentiment analyzer using Python, Flask, and NLTK.</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-date">2024</div>
-                                    <div class="timeline-content">
-                                        <h4>Library Management System</h4>
-                                        <h5>Personal Project</h5>
-                                        <p>Built a complete Flask + SQLite application for managing library operations.</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-date">2023-2024</div>
-                                    <div class="timeline-content">
-                                        <h4>Multiple Web Projects</h4>
-                                        <h5>Personal Projects</h5>
-                                        <p>Developed various web applications including calculator, authentication systems, and portfolio websites.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="resume-download">
-                        <div class="download-card">
-                            <div class="cube-container" aria-hidden="true">
-                                <div class="cube">
-                                    <div class="cube-face front">
-                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="cube-face back">
-                                        <i class="fas fa-file-pdf" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="cube-face right">
-                                        <i class="fas fa-file-word" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="cube-face left">
-                                        <i class="fas fa-file-code" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="cube-face top">
-                                        <i class="fas fa-file-contract" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="cube-face bottom">
-                                        <i class="fas fa-file-download" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <h3>Download My Resume</h3>
-                            <p>Available in multiple formats</p>
-                            <div class="download-btns">
-                                <a href="documents/Resume.pdf" class="btn btn-primary" download="Touseef_Rehman_Resume.pdf">PDF Version</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <h3><i class="fas fa-paper-plane" aria-hidden="true"></i> Contact Information</h3>
-                        <div class="contact-details">
-                            <div class="contact-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                                </div>
-                                <div class="contact-text">
-                                    <h4>Location</h4>
-                                    <p>Taxila, Pakistan</p>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-envelope" aria-hidden="true"></i>
-                                </div>
-                                <div class="contact-text">
-                                    <h4>Email</h4>
-                                    <a href="mailto:touseefurrehman5554@gmail.com">touseefurrehman5554@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="social-links">
-                            <a href="https://github.com/touseef7878" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-                            <a href="https://linkedin.com/in/yourprofile" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/yourprofile" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                    <div class="contact-form">
-                        <h3><i class="fas fa-envelope-open-text" aria-hidden="true"></i> Send Me a Message</h3>
-                        <form id="contactForm" novalidate>
-                            <div class="form-group">
-                                <label for="name" class="visually-hidden">Your Name</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                <div class="error-message" id="name-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email" class="visually-hidden">Your Email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                <div class="error-message" id="email-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="subject" class="visually-hidden">Subject</label>
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-                            </div>
-                            <div class="form-group">
-                                <label for="message" class="visually-hidden">Your Message</label>
-                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                                <div class="error-message" id="message-error"></div>
-                            </div>
-                            <button type="submit" class="submit-btn">Send Message</button>
-                            <div id="form-success" class="success-message"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <span aria-hidden="true">T</span>ouseef<span aria-hidden="true">R</span>ehman
+                    <span>T</span>ouseef<span>R</span>ehman
                 </div>
                 <p>Creating web experiences with modern technologies.</p>
                 <div class="footer-links">
@@ -487,29 +446,16 @@
                     <a href="#resume">Resume</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://github.com/touseef7878" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-                    <a href="https://linkedin.com/in/yourprofile" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/yourprofile" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://github.com/touseef7878" class="social-link"><i class="fab fa-github"></i></a>
                 </div>
                 <div class="copyright">
-                    &copy; <span id="current-year"></span> Touseef ur Rehman. All rights reserved.
+                    &copy; 2024 Touseef ur Rehman. All rights reserved.
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
-        <i class="fas fa-arrow-up" aria-hidden="true"></i>
-    </button>
-
-    <!-- Theme Toggle Button -->
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-        <i class="fas fa-moon" id="theme-icon" aria-hidden="true"></i>
-    </button>
-
-    <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="scripts.js" defer></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
